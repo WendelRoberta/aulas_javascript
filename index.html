@@ -8,9 +8,18 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
+<body onload="carrega()">
     <button type="button" onclick="clicou()">Clique aqui</button>
-    <p id="agradecimento"></p>
+    <p id="agradecimento" onclick="redirecionamento()"></p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">tocar aqui</p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">tocar aqui</p>
+
+    <select onchange="escolha(this)">
+        <option value="">Valor</option>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 
 </html>
