@@ -1,3 +1,10 @@
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+}
+
+
+
+
 //var nome = "Wendel Roberta";
 //var idade = 25;
 //alert(nome + " tem " + idade + "anos");
@@ -54,7 +61,7 @@ alert(soma(5, 10));*/
 
 //var validar = 0; variavel global
 
-function validaIdade(idade) {
+/*function validaIdade(idade) {
     var validar; //variavel local
     if (idade >= 18) {
         validar = true;
@@ -65,4 +72,4 @@ function validaIdade(idade) {
 }
 var idade = prompt("Qual sua idade?");
 // validaIdade(idade) usado quando a variavel é global
-console.log(validaIdade(idade)); //chamar apenas o validar quando a variavel for global
+console.log(validaIdade(idade)); //chamar apenas o validar quando a variavel for global*/
