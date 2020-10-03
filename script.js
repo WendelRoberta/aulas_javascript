@@ -46,3 +46,23 @@ for (count = 0; count <= 5; count++) {
 console.log(d.getFullYear());
 console.log(d.getMonth() + 1);
 console.log(d.getMinutes());*/
+
+/*function soma(n1, n2) {
+    return n1 + n2;
+}
+alert(soma(5, 10));*/
+
+//var validar = 0; variavel global
+
+function validaIdade(idade) {
+    var validar; //variavel local
+    if (idade >= 18) {
+        validar = true;
+    } else {
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade?");
+// validaIdade(idade) usado quando a variavel é global
+console.log(validaIdade(idade)); //chamar apenas o validar quando a variavel for global
